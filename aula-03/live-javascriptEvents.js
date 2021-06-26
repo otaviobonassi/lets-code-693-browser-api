@@ -16,9 +16,63 @@
 //classList (add, remove, toggle)
 //element.style.______
 
-// Eventos
-
+// EVENTOS
+// element.addEventListener( TIPO_EVENTO, (event) => { ... })
 // Relacionados a um comp.: focus, blur, input, change
+// Relacionados ao teclado: keydown, keypress, keyup
+// Relacionados ao mouse: click, mousedown, mouseup, mouseenter, mouseover, mouseleave
+// Relacionados ao form: submit (atenção ao event.preventDefault() para bloquear o envio automático do form)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const div = document.querySelector(".container")
 div.addEventListener('click', () => {
     console.log("cliquei no pai")
